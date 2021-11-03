@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Yusuke Sugino',
-  domain: 'https://blog-plum-three.vercel.app/',
+  domain: 'blog-pipinosuke.vercel.app',
   author: 'Yusuke Sugino',
 
   // open graph metadata (optional)
