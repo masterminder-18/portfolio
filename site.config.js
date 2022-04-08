@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Yusuke Sugino',
-  domain: 'yusuke-sugino.biz',
+  domain: 'blog.yusuke-sugino.biz',
   author: 'Yusuke Sugino',
 
   // open graph metadata (optional)
