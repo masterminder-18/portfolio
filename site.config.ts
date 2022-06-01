@@ -1,7 +1,7 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  rootNotionPageId: 'Blog-add46ffe71fc44c08b979f27ccb91f72',
+  rootNotionPageId: 'Yusuke-Sugino-c3769622de7e4e19828d528a1ea78ebc',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -9,7 +9,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Yusuke Sugino',
-  domain: 'blog.yusuke-sugino.biz',
+  domain: 'yusuke-sugino.biz',
   author: 'Yusuke Sugino',
 
   // open graph metadata (optional)
@@ -46,16 +46,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  // navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
+  navigationStyle: 'default'
+  // navigationStyle: 'custom',
+  // navigationLinks: [
     // {
     //   title: 'Social',
     //   pageId: 'about-92d1fa0137914f7bac4666c1a3c01b6b'
     // },
-    {
-      title: 'About',
-      pageId: 'About-07f0db0c64694bc38b4a2b9d5abd5701'
-    }
-  ]
+    // {
+    //   title: 'About',
+    //   pageId: 'About-38f67da9658c40f0891b8b66af70b9cf'
+    // }
+  // ]
 })
