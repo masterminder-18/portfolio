@@ -46,12 +46,12 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'About-38f67da9658c40f0891b8b66af70b9cf'
-  //   }
-  // ]
+  // navigationStyle: 'default',
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'Blog',
+      url: 'https://blog.yusuke-sugino.biz'
+    }
+  ]
 })
